@@ -1,14 +1,16 @@
 import React, { Component } from 'react'
 import './App.css'
 // import ChildComponent from './components/ChildComponent'
-import Count from './components/Count'
+// import Count from './components/Count'
+import BulbOnOff from './components/BulbOnOff'
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<Count />
+				{/* <Count /> */}
 				{/* <ChildComponent /> */}
+				<BulbOnOff />
 			</div>
 		);
 	} 
